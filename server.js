@@ -17,6 +17,10 @@ app.use(express.static(path.resolve("index",__dirname,'views')))
 
 app.get('/pagina2',(req,res)=>{
     res.sendFile(path.join(__dirname,'views','pagina2.html'))
+});
+
+app.get('pagina3',(req,res)=>{
+    res.sendFile(__dirname,)
 })
 
 app.listen(3000, () => {
