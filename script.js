@@ -8,4 +8,4 @@ class Pessoa {
 
 const novaPessoa = new Pessoa('Fabiano','Fregnani')
 
-console.log(novaPessoa)
+ console.log(novaPessoa)
